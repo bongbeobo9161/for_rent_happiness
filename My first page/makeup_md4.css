@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(152, 186, 249);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+
+}
+
+.container header img{
+    height: 150px;
+    padding: 20px 10px;
+    
+}
+
+.container header .header-btn{
+    background-color: rgb(224, 91, 135);
+    color: white;
+    border: none;
+    display: table-column-group;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.catelogy ul{
+    display: flex;
+    width: 100%;
+    background-color: rgb(240, 189, 240);
+    justify-content: space-around;
+    padding: 6 12px;
+    margin: auto;
+    list-style-type: none;
+    font-size: 20px;
+    
+    
+}
+
+.catelogy ul a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    color: rgb(97, 73, 248);
+    
+}
+
+.container .content{
+    display: flex;
+}
+
+.container .content aside{
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid #ccc;
+    background-color: rgb(241, 225, 206);
+}
+
+
+.container footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: beige;
+}
+
+.container footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.container .content aside img{
+    height: 170px;
+    width: 260px;
+    display: table-column;
+    margin: 15px 10px;
+    gap: 20px;
+}
+
+.container .content aside p{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.container .content main h1{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(245, 63, 129);
+    padding: 30px 100px 10px;
+}
+
+.container .content main p{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 15px 20px 10px 30px;
+}
+
+.container .content main img{
+    height: 500px;
+    width: 900px;
+    padding: 30px 70px;
+}
